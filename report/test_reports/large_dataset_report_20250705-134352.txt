@@ -1,0 +1,41 @@
+
+=================================================
+      FULL PERFORMANCE REPORT (LARGE DATASET)
+=================================================
+Test Time: 2025-07-05 13:43:52
+Dataset Source: tongpython/cat-and-dog
+Total Images Processed: 10028
+-------------------------------------------------
+
+### OVERALL ACCURACY ###
+Accuracy: 88.42%
+
+-------------------------------------------------
+
+### CLASSIFICATION REPORT ###
+              precision    recall  f1-score   support
+
+        cats       0.90      0.87      0.88      5011
+        dogs       0.87      0.90      0.89      5017
+
+    accuracy                           0.88     10028
+   macro avg       0.88      0.88      0.88     10028
+weighted avg       0.88      0.88      0.88     10028
+
+
+-------------------------------------------------
+
+### TEXT-BASED CONFUSION MATRIX ###
+
+                 Predicted Cat | Predicted Dog
+               ----------------|----------------
+    Actual Cat |      4336    |      675    
+    Actual Dog |      486     |      4531   
+
+-------------------------------------------------
+Matrix Details:
+- True Cats (TN): 4336
+- False Dogs (FP): 675  (Cat predicted as Dog)
+- False Cats (FN): 486  (Dog predicted as Cat)
+- True Dogs (TP): 4531
+=================================================
