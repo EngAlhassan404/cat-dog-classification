@@ -18,6 +18,20 @@ The primary goal is to establish a strong baseline model and then use its perfor
   2. A large, unseen dataset from Kaggle.
   3. Live, random images fetched from the Unsplash API.
 - **Detailed Reporting:** Generates and saves detailed performance reports, including accuracy, precision, recall, and a confusion matrix.
+- ---
+### Development Methodology & Tools
+
+This project was developed using an **AI-Assisted Development** approach, with the Gemini Pro model serving as a collaborator in the code generation and experimental design process. My role was that of a Machine Learning Engineer and Project Manager, guiding the development of an end-to-end classification pipeline.
+
+My contributions were focused on the following key areas:
+
+* **Concept and Requirements Definition:** Defining the requirements for an integrated machine learning project aimed at building, training, and evaluating a Convolutional Neural Network (CNN) from scratch. The primary goal was to establish a strong performance baseline to justify the future use of more advanced techniques like Transfer Learning.
+* **Architectural Design:** Designing the custom CNN architecture using TensorFlow/Keras and structuring the project into separate Jupyter Notebooks that clearly distinguish between the **Model Training & Initial Evaluation** phase and the **Advanced Inference & Testing** phase.
+* **Prompt Engineering:** Crafting detailed prompts for the AI to build each component of the project, from designing the neural network layers and developing a robust data pipeline capable of handling messy data, to writing comprehensive evaluation functions and reporting modules.
+* **Review, Testing, and Validation:** Implementing a rigorous, multi-stage evaluation process to verify the model's ability to generalize. This involved testing its performance against **three distinct data sources**: the original validation set, a large unseen dataset from Kaggle, and live, random images fetched from the Unsplash API.
+* **Full Documentation:** Writing a detailed `README.md` that outlines the project's workflow from start to finish, including the project structure, setup process, usage instructions, and a clear summary of the results and planned next steps.
+
+This project showcases a modern workflow for rapidly prototyping and validating machine learning models, using AI as a tool to accelerate development while maintaining a focus on rigorous, empirical testing.
 
 ---
 
@@ -108,3 +122,4 @@ The custom CNN model achieved a strong baseline performance:
 ## 7. Next Steps
 
 The next phase of this project is to implement **Transfer Learning** using a pre-trained model (e.g., MobileNetV2) to bridge the performance gap and achieve an accuracy of **>95%**.
+
